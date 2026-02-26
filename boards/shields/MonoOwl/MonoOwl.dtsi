@@ -18,30 +18,25 @@
     };
 
     aliases {
-        led_red   = &rgb_led_red;
-        led_green = &rgb_led_green;
-        led_blue  = &rgb_led_blue;
+        led-red = &led0;
+        led-green = &led1;
+        led-blue = &led2;
     };
 
-    rgbled: rgbled {
+    leds {
         compatible = "gpio-leds";
         status = "okay";
-
-        rgb_led_red: led_red {
-            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>;
-            label = "LED_RED";
+        led0: led_0 {
+            gpios = <&gpio0 26 GPIO_ACTIVE_LOW>;  // red LED, connected to P0.26
         };
-
-        rgb_led_green: led_green {
-            gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
-            label = "LED_GREEN";
+        led1: led_1 {
+            gpios = <&gpio0 30 GPIO_ACTIVE_LOW>;  // green LED, connected to P0.30
         };
-
-        rgb_led_blue: led_blue {
-            gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
-            label = "LED_BLUE";
+        led2: led_2 {
+            gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;  // blue LED, connected to P0.06
         };
     };
+};
 
 //trackball settings  
 split_inputs {
