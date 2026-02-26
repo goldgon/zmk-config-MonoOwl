@@ -14,7 +14,7 @@ manifest:
       revision: 354cff9
       import: app/west.yml
     - name: zmk-rgbled-widget
-      remote: caksoylar
+      remote: MeowCatpawkittie
       revision: main
     - name: zmk-input-processor-report-rate-limit
       remote: badjeff
