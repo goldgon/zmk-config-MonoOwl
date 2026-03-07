@@ -14,7 +14,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-input-processor-report-rate-limit
-      remote: badjeff
+      remote: MeowCatpawkittie
       revision: main
     - name: zmk-input-processor-xyz
       remote: badjeff
