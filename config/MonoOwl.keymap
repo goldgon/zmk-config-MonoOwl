@@ -51,9 +51,9 @@
 
         layer_3 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
+&kp F1  &none        &kp HOME   &kp UP     &kp PAGE_UP      &none                                 &kp TAB          &kp N7          &kp N8        &kp N9         &mkp MB3           &kp F12
+&trans  &none        &kp LEFT   &kp DOWN   &kp RIGHT        &none                                 &kp BACKSPACE    &kp N4          &mt RGUI N5   &kp N6         &kp ENTER          &trans
+&trans  &none        &kp END    &none      &kp PAGE_DOWN    &none                                 &kp N0           &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
             >;
         };
