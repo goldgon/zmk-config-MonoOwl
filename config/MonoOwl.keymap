@@ -6,9 +6,7 @@
 #include "keycode_japanese.h"
 
 
-/ {
-    behaviors {
-    };
+
 
 // 複数キーの同時押しに特別の入力を設定できる
     // キー番号早見表：
