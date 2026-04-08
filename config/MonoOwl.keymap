@@ -61,25 +61,25 @@
 
         mute {
             bindings = <&kp C_MUTE>;
-            key-positions = <13 14>;
+            key-positions = <16 17>;
             layers = <0>;
         };
 
         vup {
             bindings = <&kp C_VOL_UP>;
-            key-positions = <3 4>;
+            key-positions = <4 5>;
             layers = <0>;
         };
 
         vdn {
             bindings = <&kp C_VOL_DN>;
-            key-positions = <23 24>;
+            key-positions = <28 29>;
             layers = <0>;
         };
 
         lspace{
             bindings = <&kp SPACE>;
-            key-positions = <11 13>;
+            key-positions = <14 16>;
         };
 
     };
