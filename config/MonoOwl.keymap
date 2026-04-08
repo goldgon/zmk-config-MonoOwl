@@ -17,6 +17,74 @@
     // 24 25 26 27 28 29       30 31 32 33 34 35 
     // 36 37 38 39 40 41       42 43 44 45 46 47
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        hankaku {
+            bindings = <&kp GRAVE>;
+            key-positions = <2 4>;
+            layers = <0>;
+            timeout-ms = <200>;
+        };
+
+        fopen {
+            bindings = <&kp LG(N2)>;
+            key-positions = <6 10>;
+            layers = <0>;
+            timeout-ms = <200>;
+        };
+
+        btcl {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <0 12 24 36>;
+            layers = <0>;
+        };
+
+        bt0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <6 18 30 42>;
+            layers = <0>;
+        };
+
+        bt1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <7 19 31 43>;
+            layers = <0>;
+        };
+
+        bt2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <8 20 32 44>;
+            layers = <0>;
+        };
+
+        mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        vup {
+            bindings = <&kp C_VOL_UP>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        vdn {
+            bindings = <&kp C_VOL_DN>;
+            key-positions = <23 24>;
+            layers = <0>;
+        };
+
+        lspace{
+            bindings = <&kp SPACE>;
+            key-positions = <11 13>;
+        };
+
+    };
+
+
 
 
     keymap {
